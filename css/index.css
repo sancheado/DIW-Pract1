@@ -1,0 +1,15 @@
+*{margin:0;padding: 0;box-sizing: border-box;background-color: #000; color:aliceblue}
+
+/* Barra de menu */
+nav{display: flex;justify-content: space-around;padding: 15px;}
+
+/* Barra de menu y cuerpo */
+nav,.cuerpo{max-width: 65vw;border:1px solid #fff;margin: 5px auto;padding: 5px;}
+
+
+.logo{display: flex;justify-content: center;}
+.logo img{margin: 10px auto;}
+.txtCabeza{color: aqua!important;padding: 50px;}
+
+.txtCabeza h2{text-align: center;padding: 10px;margin: 5px}
+.txtCabeza p{font-size: 1.2rem;margin:10px 2.5px;text-align: justify;}

@@ -1,0 +1,26 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+body{background-color: #000; color:aliceblue}
+/* Barra de menu */
+nav{display: flex;justify-content: space-around;padding: 15px;}
+nav a{color: #469cc4!important; text-decoration: none;font-size:1.5rem}
+nav a:hover{font-size:1.4rem;color:#006A1F;}
+
+/* Barra de menu y cuerpo */
+nav,.cuerpo{max-width: 65vw;border:1px solid #fff;margin: 5px auto;padding: 25px;background-color: #fff;}
+
+.aboutUs{color:#000!important;}
+.aboutUs .insideAbout{display:flex;justify-content: center;}
+.aboutUs .insideAbout img{padding: 15px;margin-left:auto;margin-right: auto;width: 65%;}
+.aboutUs h3{text-decoration: underline #000;text-align: center;padding: 7px;text-transform: uppercase;}
+
+.txtCabeza{color:#000!important;}
+.txtCabeza p{padding:5px; margin:15px;text-align: justify;}
+.txtCabeza h3{padding:5px; margin:8px;text-align: justify;}
+
+/* estilos para lista de servicios */
+.txtCabeza ul li{padding:5px; margin-left:30px;list-style-type: upper-roman;}
+
+/* Estilo para Nuestro Equipo */
+ul li .cajas{border:.2px solid #ebebeb;width: 35%; margin: auto;}
+ul li .cajas img{width: 100%;padding: 15px;}
+ul li .cajas p{text-align: center; text-decoration: underline #000;}
